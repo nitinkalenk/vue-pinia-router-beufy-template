@@ -17,6 +17,7 @@ import { BNavbar, BNavbarDropdown, BNavbarItem } from "buefy";
           <template #start>
               <b-navbar-item tag="router-link" :to="{path : '/'}"> Home </b-navbar-item>
               <b-navbar-item tag="router-link" :to="{path : 'about'}"> About </b-navbar-item>
+              <b-navbar-item tag="router-link" :to="{path : 'counter'}"> Counter </b-navbar-item>
           </template>
 
           <template #end>
