@@ -1,4 +1,3 @@
-import './assets/main.css'
 import 'buefy/dist/css/buefy.css'
 
 import { createApp } from 'vue'
